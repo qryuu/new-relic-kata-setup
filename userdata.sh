@@ -12,10 +12,8 @@ sudo -u ec2-user curl -L https://raw.githubusercontent.com/c9/install/master/ins
 
 yum install -y postgresql postgresql-devel postgresql-server postgresql-contrib postgresql-docs
 
-sed -i -e "s/host    all             all             127.0.0.1\/32            ident/host    all             all             127.0.0.1\/32            trust/g" /var/lib/pgsql/data/pg_hba.conf
-
 systemctl enable postgresql.service
-postgresql-setup initdb --encoding=UTF8 --no-locale
+postgresql-setup initdb
 systemctl start postgresql.service
 
 sudo -u postgres createuser -s ec2-user
@@ -23,6 +21,8 @@ sudo -u postgres createdb ec2-user
 sudo -u postgres psql -c "ALTER USER \"ec2-user\" WITH SUPERUSER;"  
 
 systemctl restart postgresql.service
+
+git clone https://github.com/qryuu/new-relic-kata-setup.git /home/ec2-user/new-relic-kata-setup
 
 git clone https://github.com/newrelic/newrelic-ruby-kata /home/ec2-user/newrelic-ruby-kata
 
