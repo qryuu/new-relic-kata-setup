@@ -28,12 +28,5 @@ git clone https://github.com/qryuu/new-relic-kata-setup.git /home/ec2-user/new-r
 
 git clone https://github.com/newrelic/newrelic-ruby-kata /home/ec2-user/newrelic-ruby-kata
 
-cd /home/ec2-user/newrelic-ruby-kata
-
-sudo -u ec2-user rvm rvmrc warning ignore allGemfiles
-sudo -u ec2-user rvm install "ruby-2.2.2"
-
-sudo -u ec2-user bundle install
-
-sudo -u ec2-user bundle exec rake db:create
-sudo -u ec2-user pg_restore --verbose --clean --no-acl --no-owner -h localhost -U $USER -d newrelic-ruby-kata_development public/sample-data.dump
+chown ec2-user.ec2-user -R /home/ec2-user/newrelic-ruby-kata
+chown ec2-user.ec2-user -R /home/ec2-user/new-relic-kata-setup
