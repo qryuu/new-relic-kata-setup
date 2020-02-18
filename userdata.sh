@@ -12,7 +12,7 @@ sudo -u ec2-user curl -L https://raw.githubusercontent.com/c9/install/master/ins
 
 yum install -y postgresql postgresql-devel postgresql-server postgresql-contrib postgresql-docs
 
-sed -i -e "s/host    all             all             127.0.0.1\/32            ident/host    all             all             127.0.0.1\/32            trust/g" /var/lib/pgsql9/data/pg_hba.conf
+sed -i -e "s/host    all             all             127.0.0.1\/32            ident/host    all             all             127.0.0.1\/32            trust/g" /var/lib/pgsql/data/pg_hba.conf
 
 systemctl enable postgresql.service
 postgresql-setup initdb
