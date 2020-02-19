@@ -16,6 +16,7 @@ systemctl enable postgresql.service
 postgresql-setup initdb
 systemctl start postgresql.service
 
+sudo -u postgres createuser -s ec2-user
 sudo -u postgres createdb ec2-user
 sudo -u postgres psql -c "ALTER USER \"ec2-user\" WITH SUPERUSER;"  
 
