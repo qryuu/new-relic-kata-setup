@@ -2,4 +2,4 @@
 
 cd /home/ec2-user/newrelic-ruby-kata
 
-bundle exec rails s
+rails server -b 0.0.0.0
