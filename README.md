@@ -10,5 +10,5 @@ curl -L https://raw.githubusercontent.com/qryuu/new-relic-kata-setup/master/user
 ```
 
 と入力し起動します。  
-起動したInstanceにCloud9を接続し、kata-download.sh、kata-install.sh、kata-setup.sh の順に実行します。
+起動したInstanceにCloud9を接続し、kata-download.sh、kata-install.sh、kata-setup.sh の順に実行します。  
 kata-start.shを実行するとKata環境がスタートします。
