@@ -3,7 +3,8 @@
 Kataトレーニング環境をセットアップするスクリプト
 Amazon Linux 2 EC2 Userdataに
 
-``` #!/bin/bash  
+``` sh:Userdata
+#!/bin/bash  
   
 curl -L https://raw.githubusercontent.com/qryuu/new-relic-kata-setup/master/userdata.sh | bash
 ```
