@@ -24,9 +24,9 @@ Amazon_Linux2_base_Cloud9_setup.sh を開いて`Run`をクリックします。
 
 ### ステップ5
 
-Kata-Setup-2/1.kata-download.sh、
-Kata-Setup-2/2.kata-install.sh
-Kata-Setup-2/3.kata-setup.sh
+Kata-Setup-2/1.kata-download.sh  
+Kata-Setup-2/2.kata-install.sh  
+Kata-Setup-2/3.kata-setup.sh  
 
 を順番に実行してNew Relic Kata 環境を自動的に構築します。
 
@@ -62,8 +62,8 @@ curl -L https://raw.githubusercontent.com/qryuu/new-relic-kata-setup/master/user
 
 ### ステップ 4
 
-Kata-Setup/1.kata-download.sh、
-Kata-Setup/2.kata-install.sh
-Kata-Setup/3.kata-setup.sh
+Kata-Setup/1.kata-download.sh  
+Kata-Setup/2.kata-install.sh  
+Kata-Setup/3.kata-setup.sh  
 上記を順番に実行するとRuby-kataがセットアップされます。  
 kata-start.sh を実行するとKata環境がスタートします。
