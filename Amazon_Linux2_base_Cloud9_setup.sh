@@ -22,6 +22,4 @@ sudo sed -i -e "s/host    all             all             127.0.0.1\/32         
 
 sudo systemctl restart postgresql.service
 
-git clone https://github.com/qryuu/new-relic-kata-setup.git /home/ec2-user/new-relic-kata-setup
-
-sudo chown ec2-user.ec2-user -R /home/ec2-user/new-relic-kata-setup
+sudo chown ec2-user.ec2-user -R /home/ec2-user/environment/new-relic-kata-setup
