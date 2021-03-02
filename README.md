@@ -34,7 +34,7 @@ Kata-Setup-2/3.kata-setup.sh
 
 ### ステップ6
 
-kata-start.sh を開き`Run`をクリックするとKata アプリケーションが起動します。
+kata-start-2.sh を開き`Run`をクリックするとKata アプリケーションが起動します。
 `http://0.0.0.0:3000` をクリックして`Open`をクリックすれば、Kataアプリが表示されます。
 
 ## Old Cloud9
