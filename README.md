@@ -15,9 +15,11 @@ Cloud9 インスタンスのセキュリティーグループにTCP Port 3000 �
 ### ステップ 3
 
 Cloud9 のbash コンソールでgit clone を実行して、リポジトリをコピーします。
+
 ``` sh:git clone
 git clone https://github.com/qryuu/new-relic-kata-setup.git
 ```
+
 ### ステップ 4
 
 Amazon_Linux2_base_Cloud9_setup.sh を開いて`Run`をクリックします。
@@ -36,6 +38,9 @@ kata-start.sh を開き`Run`をクリックするとKata アプリケーショ�
 `http://0.0.0.0:3000` をクリックして`Open`をクリックすれば、Kataアプリが表示されます。
 
 ## Old Cloud9
+
+EC2 SSH Base Cloud9
+
 ### ステップ 1
 
 UserDataに以下のスクリプトを入力してAmazon Linux2 のインスタンスを起動します。
