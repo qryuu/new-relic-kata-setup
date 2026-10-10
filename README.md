@@ -1,5 +1,10 @@
 # new-relic-kata-setup
 
+> [!WARNING]
+> **【アーカイブ済み / Archived】**
+> 本リポジトリは 2020〜2021 年当時の AWS Cloud9 (Amazon Linux 2) 上で `newrelic-ruby-kata` をセットアップするために作成されたスクリプト集です。
+> AWS Cloud9 の提供終了および対象動作環境（Amazon Linux 2、Ruby 2.2.2 等）のサポート終了に伴い、現在はアーカイブ（読み取り専用）となっています。
+
 Kataトレーニング環境をセットアップするスクリプト
 
 ## Amazon Linux2 Base Cloud9
